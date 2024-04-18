@@ -1,0 +1,95 @@
+.generalcontainer {
+  background-image: url(/asset/pattern-background-desktop.svg);
+  background-color: #e0e8ff;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+body {
+  margin: 0px;
+}
+
+.cardcontainer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}
+.writeup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  h1 {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+.annualplan {
+  background-color: #f8f9fe;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    margin: 0px;
+  }
+  h4 {
+    margin: 0px;
+    font-weight: normal;
+  }
+  main {
+    color: blue;
+    /* background-color: aquamarine; */
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
+button {
+  background-color: #382ae1;
+  margin-top: 30px;
+  color: white;
+  padding: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  border: none;
+  font-family: Montserrat;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+small {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 50px;
+}
